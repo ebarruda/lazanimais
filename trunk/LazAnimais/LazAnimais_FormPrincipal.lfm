@@ -1,0 +1,39 @@
+object FormPrincipal: TFormPrincipal
+  Left = 342
+  Height = 300
+  Top = 127
+  Width = 400
+  Caption = 'LazAnimais'
+  Menu = MainMenuLazAnimais
+  OnCreate = FormCreate
+  LCLVersion = '0.9.29'
+  object MainMenuLazAnimais: TMainMenu
+    left = 56
+    top = 24
+    object MenuItem1: TMenuItem
+      Caption = '&Jogo'
+      object MenuItemJogoNovo: TMenuItem
+        Caption = '&Novo'
+        OnClick = MenuItemJogoNovoClick
+      end
+      object MenuItemJogoSobre: TMenuItem
+        Caption = 'S&obre'
+        OnClick = MenuItemJogoSobreClick
+      end
+      object MenuItemJogoSep: TMenuItem
+        Caption = '-'
+      end
+      object MenuItemJogoSair: TMenuItem
+        Caption = '&Sair'
+        OnClick = MenuItemJogoSairClick
+      end
+    end
+    object MenuItemCadastro: TMenuItem
+      Caption = '&Cadastro'
+      object MenuItemCadastroAnimais: TMenuItem
+        Caption = '&Animais / Características'
+        OnClick = MenuItemCadastroAnimaisClick
+      end
+    end
+  end
+end

@@ -1,0 +1,2 @@
+INSERT INTO animal_caracteristica (codigo_animal, codigo_caracteristica) SELECT codigo, (SELECT codigo FROM caracteristica WHERE nome = "é peludo") FROM animal WHERE nome = "lobo");
+INSERT INTO animal_caracteristica (codigo_animal, codigo_caracteristica) SELECT codigo, (SELECT codigo FROM caracteristica WHERE nome = "feroz") FROM animal WHERE nome = "lobo");

@@ -1,0 +1,129 @@
+object FormCadastro: TFormCadastro
+  Left = 328
+  Height = 440
+  Top = 13
+  Width = 380
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Cadastro'
+  ClientHeight = 440
+  ClientWidth = 380
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '0.9.29'
+  object BitBtnFechar: TBitBtn
+    Left = 144
+    Height = 30
+    Top = 401
+    Width = 75
+    Caption = '&Fechar'
+    Kind = bkClose
+    TabOrder = 0
+  end
+  object PageControlCadastro: TPageControl
+    Left = 9
+    Height = 378
+    Top = 14
+    Width = 360
+    ActivePage = TabSheetAnimais
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheetAnimais: TTabSheet
+      Caption = 'Animais'
+      ClientHeight = 352
+      ClientWidth = 352
+      object DBGrid1: TDBGrid
+        Left = 11
+        Height = 148
+        Top = 12
+        Width = 328
+        Columns = <        
+          item
+            Title.Caption = 'Código'
+            Width = 40
+            FieldName = 'codigo'
+          end        
+          item
+            Title.Caption = 'Nome'
+            Width = 250
+            FieldName = 'nome'
+          end>
+        DataSource = DM.DatasourceAnimal
+        TabOrder = 0
+      end
+      object DBNavigator1: TDBNavigator
+        Left = 54
+        Height = 25
+        Top = 172
+        Width = 241
+        BevelOuter = bvNone
+        ClientHeight = 25
+        ClientWidth = 241
+        DataSource = DM.DatasourceAnimal
+        TabOrder = 1
+        VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbEdit, nbPost, nbCancel, nbRefresh]
+      end
+      object DBGrid3: TDBGrid
+        Left = 11
+        Height = 100
+        Top = 212
+        Width = 328
+        Columns = <        
+          item
+            Title.Caption = 'Característica(s)'
+            Width = 290
+            FieldName = 'caracteristica'
+          end>
+        DataSource = DM.DatasourceAnimalCaracteristica
+        TabOrder = 2
+      end
+      object DBNavigator3: TDBNavigator
+        Left = 54
+        Height = 25
+        Top = 320
+        Width = 241
+        BevelOuter = bvNone
+        ClientHeight = 25
+        ClientWidth = 241
+        DataSource = DM.DatasourceAnimalCaracteristica
+        TabOrder = 3
+        VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+      end
+    end
+    object TabSheetCaracteristicas: TTabSheet
+      Caption = 'Características'
+      ClientHeight = 352
+      ClientWidth = 352
+      object DBGrid2: TDBGrid
+        Left = 11
+        Height = 288
+        Top = 12
+        Width = 328
+        Columns = <        
+          item
+            Title.Caption = 'Código'
+            Width = 40
+            FieldName = 'codigo'
+          end        
+          item
+            Title.Caption = 'Nome'
+            Width = 250
+            FieldName = 'nome'
+          end>
+        DataSource = DM.DatasourceCaracteristica
+        TabOrder = 0
+      end
+      object DBNavigator2: TDBNavigator
+        Left = 56
+        Height = 25
+        Top = 316
+        Width = 241
+        BevelOuter = bvNone
+        ClientHeight = 25
+        ClientWidth = 241
+        DataSource = DM.DatasourceCaracteristica
+        TabOrder = 1
+      end
+    end
+  end
+end
