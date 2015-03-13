@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Title Value="LazAnimais"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="4"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <CurrentVersionNr Value="1"/>
+      <CurrentBuildNr Value="120"/>
+      <Language Value="0416"/>
+      <FileDescription Value="LazAnimais - Jogo"/>
+      <LegalCopyright Value="GPL"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="zcomponent"/>
+        <MinVersion Major="7" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="LazAnimais.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LazAnimais"/>
+        <CursorPos X="1" Y="25"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="91"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="LazAnimais_FormPrincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrincipal"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazAnimais_FormPrincipal"/>
+        <CursorPos X="23" Y="68"/>
+        <TopLine Value="38"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="91"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="LazAnimais_FormSobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSobre"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazAnimais_FormSobre"/>
+        <CursorPos X="31" Y="12"/>
+        <TopLine Value="7"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="91"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="LazAnimais_DataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="LazAnimais_DataModule"/>
+        <CursorPos X="40" Y="67"/>
+        <TopLine Value="38"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="91"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="LazAnimais_FormCadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastro"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazAnimais_FormCadastro"/>
+        <CursorPos X="20" Y="30"/>
+        <TopLine Value="30"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="90"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormJogo"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazAnimais_FormJogo"/>
+        <CursorPos X="64" Y="344"/>
+        <TopLine Value="344"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="78" Column="31" TopLine="56"/>
+      </Position1>
+      <Position2>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="108" Column="27" TopLine="90"/>
+      </Position2>
+      <Position3>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="109" Column="27" TopLine="90"/>
+      </Position3>
+      <Position4>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="180" Column="9" TopLine="153"/>
+      </Position4>
+      <Position5>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="373" Column="114" TopLine="348"/>
+      </Position5>
+      <Position6>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="298" Column="71" TopLine="275"/>
+      </Position6>
+      <Position7>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="61" Column="5" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="71" Column="12" TopLine="48"/>
+      </Position8>
+      <Position9>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="66" Column="44" TopLine="48"/>
+      </Position9>
+      <Position10>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="67" Column="12" TopLine="48"/>
+      </Position10>
+      <Position11>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="91" Column="57" TopLine="60"/>
+      </Position11>
+      <Position12>
+        <Filename Value="LazAnimais.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="82" Column="1" TopLine="70"/>
+      </Position13>
+      <Position14>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="84" Column="1" TopLine="53"/>
+      </Position14>
+      <Position15>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="16" Column="85" TopLine="6"/>
+      </Position15>
+      <Position16>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="136" Column="83" TopLine="117"/>
+      </Position16>
+      <Position17>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="135" Column="38" TopLine="117"/>
+      </Position17>
+      <Position18>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="136" Column="92" TopLine="117"/>
+      </Position18>
+      <Position19>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="156" Column="91" TopLine="137"/>
+      </Position19>
+      <Position20>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="179" Column="92" TopLine="160"/>
+      </Position20>
+      <Position21>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="395" Column="84" TopLine="382"/>
+      </Position21>
+      <Position22>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position22>
+      <Position23>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="136" Column="93" TopLine="117"/>
+      </Position23>
+      <Position24>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="156" Column="92" TopLine="137"/>
+      </Position24>
+      <Position25>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="179" Column="93" TopLine="160"/>
+      </Position25>
+      <Position26>
+        <Filename Value="LazAnimais.lpr"/>
+        <Caret Line="25" Column="1" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="378" Column="97" TopLine="365"/>
+      </Position27>
+      <Position28>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="65" Column="40" TopLine="58"/>
+      </Position28>
+      <Position29>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="80" Column="23" TopLine="59"/>
+      </Position29>
+      <Position30>
+        <Filename Value="LazAnimais_FormJogo.pas"/>
+        <Caret Line="513" Column="36" TopLine="489"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="LazAnimais"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

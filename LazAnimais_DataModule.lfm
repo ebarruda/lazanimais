@@ -1,0 +1,120 @@
+object DM: TDM
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 224
+  HorizontalOffset = 516
+  VerticalOffset = 77
+  Width = 449
+  object ZConnectionLazAnimais: TZConnection
+    Protocol = 'sqlite-3'
+    Database = 'LazAnimais.db'
+    Connected = True
+    left = 56
+    top = 16
+  end
+  object ZQueryAnimal: TZQuery
+    Connection = ZConnectionLazAnimais
+    AfterScroll = ZQueryAnimalAfterScroll
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM animal'
+    )
+    Params = <>
+    left = 56
+    top = 80
+    object ZQueryAnimalcodigo: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'codigo'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZQueryAnimalnome: TStringField
+      DisplayWidth = 100
+      FieldKind = fkData
+      FieldName = 'nome'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+  end
+  object DatasourceAnimal: TDatasource
+    DataSet = ZQueryAnimal
+    left = 56
+    top = 144
+  end
+  object ZQueryCaracteristica: TZQuery
+    Connection = ZConnectionLazAnimais
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM caracteristica'
+    )
+    Params = <>
+    left = 184
+    top = 80
+    object ZQueryCaracteristicacodigo: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'codigo'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZQueryCaracteristicanome: TStringField
+      DisplayWidth = 255
+      FieldKind = fkData
+      FieldName = 'nome'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 255
+    end
+  end
+  object DatasourceCaracteristica: TDatasource
+    DataSet = ZQueryCaracteristica
+    left = 184
+    top = 144
+  end
+  object ZQueryAnimalCaracteristica: TZQuery
+    Connection = ZConnectionLazAnimais
+    Active = True
+    SQL.Strings = (
+      'SELECT (SELECT nome FROM caracteristica WHERE codigo = codigo_caracteristica) as caracteristica FROM animal_caracteristica'
+    )
+    Params = <>
+    left = 340
+    top = 80
+    object ZQueryAnimalCaracteristicacaracteristica: TStringField
+      DisplayWidth = 255
+      FieldKind = fkData
+      FieldName = 'caracteristica'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = True
+      Required = False
+      Size = 255
+    end
+  end
+  object DatasourceAnimalCaracteristica: TDatasource
+    DataSet = ZQueryAnimalCaracteristica
+    left = 340
+    top = 144
+  end
+  object ZQueryGeral: TZQuery
+    Connection = ZConnectionLazAnimais
+    Params = <>
+    left = 340
+    top = 16
+  end
+end

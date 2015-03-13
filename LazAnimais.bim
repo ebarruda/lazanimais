@@ -1,0 +1,111 @@
+; Please do not modify this file by hand
+; It may crash the program if mistakes are found
+; Use BIM to modify it
+[Header]
+FileID = Bytessence Install Maker
+FileVersion = 4
+[GeneralInformation]
+ProgramName = LazAnimais
+ProgramVersion = 1.0.0
+ProgramWebsite = http://fanzinepas.blogspot.com/
+SupportEmail = ebarruda@gmail.com
+CompanyName = Ericson Benjamim
+CopyrightString = © Ericson Benjamim - GPL
+OutputFile = D:\_desenv\_lazarus\LazAnimais\instala_lazanimais_100.exe
+IconFile = 
+CompressionLevel = 4
+InstallerWindowTitle = <ProgramName> <ProgramVersion> Instalador
+InstallerBandText = <ProgramName> Instalador
+ShowWebsiteLink = 1
+ShowCopyrightNotice = 1
+UninstallOlder = 0
+[SystemRequirements]
+WinNT4 = 1
+Win98 = 1
+WinMe = 1
+Win2000 = 1
+WinXP = 1
+WinVista = 1
+Win7 = 1
+DotNETVersion = 0
+DotNETVisitWebpage = 0
+DotNETWebpageAddress = http://
+[ProductInfo]
+NormalDefinedPath = 1
+ReadPathFromRegistry = 0
+DefinedPath = <ProgramFiles>\<ProgramName>\
+RegistryMainKey = 0
+RegistryKeyName = Software\
+RegistryValueName = Value name
+AppendString = 0
+AppendedString = \<ProgramName>\
+PathNotFoundQuit = 0
+PathNotFoundMessage = 
+DisallowPathChange = 0
+CreateGroup = 1
+CustomStartMenuGroup = <ProgramName>
+CreateUninstallShortcut = 1
+CustomStartMenuUninstall = Desinstalar <ProgramName>
+CreateInternetLink = 0
+CustomStartMenuWebLink = 
+[LookAndFeel]
+WizardImage = C:\Arquivos de programas\Bytessence InstallMaker\Graphics\Wizard\Classic_blue.bmp
+HeaderImage = C:\Arquivos de programas\Bytessence InstallMaker\Graphics\Header\Classic_blue.bmp
+HeaderTextColor = -1
+BKUseBK = 0
+BKUseGradient = 1
+BKUsePicture = 0
+BKFirstColorR = 128
+BKFirstColorG = 128
+BKFirstColorB = 128
+BKSecondColorR = 255
+BKSecondColorG = 255
+BKSecondColorB = 255
+BKTextColorR = 230
+BKTextColorG = 230
+BKTextColorB = 230
+BKVertical = 1
+BKHorizontal = 0
+BKPicturePath = 
+BKText = 
+BKShowCopyright = 0
+ShowInformation = 0
+InformationFile = 
+ShowLicense = 0
+LicenseFile = 
+[Localization]
+7 = Portuguese (Português Brasil)
+[InstallerSettings]
+InputDirectory = D:\_desenv\_lazarus\LazAnimais\instalacao\
+ShowRestartComputerCheckbox = 0
+ShowLaunchProgramCheckbox = 1
+LPProgramPath = <DefaultInstallPath>\LazAnimais.exe
+LPParameters = 
+LPRunAsProgram = 1
+LPRunAsFile = 0
+LPRunHidden = 0
+ShowViewDocumentationCheckbox = 0
+VDProgramPath = 
+VDParameters = 
+VDRunAsProgram = 
+VDRunAsFile = 
+VDRunHidden = 
+ShowOpenReadmeCheckbox = 0
+ORProgramPath = 
+ORParameters = 
+ORRunAsProgram = 
+ORRunAsFile = 
+ORRunHidden = 
+ShowVisitWebsiteCheckbox = 0
+OWWebsiteAddress = <ProgramWebsite>
+[InstallerTasks]
+Atalho Menu Iniciar = {CREATESHORTCUT}<DefaultStartMenuGroup>\<ProgramName><DefaultInstallPath>\LazAnimais.exe0<DefaultInstallPath><ProgramName>1,1,1,1,1,1,1
+Atalho Desktop = {CREATESHORTCUT}<Desktop>\<ProgramName><DefaultInstallPath>\LazAnimais.exe0<DefaultInstallPath><ProgramName>1,1,1,1,1,1,1
+[UninstallerSettings]
+CreateUninstaller = 1
+CreateAddRemoveEntry = 1
+UseClassicUninstallerIcon = 1
+UseCustomUninstallerIcon = 0
+CustomUninstallerIconPath = 
+CustomUninstallerIconIndex = 0
+UninstRestartPC = 0

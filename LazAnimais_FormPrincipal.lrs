@@ -1,0 +1,14 @@
+LazarusResources.Add('TFormPrincipal','FORMDATA',[
+  'TPF0'#14'TFormPrincipal'#13'FormPrincipal'#4'Left'#3'V'#1#6'Height'#3','#1#3
+  +'Top'#2#127#5'Width'#3#144#1#7'Caption'#6#10'LazAnimais'#4'Menu'#7#18'MainMe'
+  +'nuLazAnimais'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#6'0.9.29'#0#9'T'
+  +'MainMenu'#18'MainMenuLazAnimais'#4'left'#2'8'#3'top'#2#24#0#9'TMenuItem'#9
+  +'MenuItem1'#7'Caption'#6#5'&Jogo'#0#9'TMenuItem'#16'MenuItemJogoNovo'#7'Capt'
+  +'ion'#6#5'&Novo'#7'OnClick'#7#21'MenuItemJogoNovoClick'#0#0#9'TMenuItem'#17
+  +'MenuItemJogoSobre'#7'Caption'#6#6'S&obre'#7'OnClick'#7#22'MenuItemJogoSobre'
+  +'Click'#0#0#9'TMenuItem'#15'MenuItemJogoSep'#7'Caption'#6#1'-'#0#0#9'TMenuIt'
+  +'em'#16'MenuItemJogoSair'#7'Caption'#6#5'&Sair'#7'OnClick'#7#21'MenuItemJogo'
+  +'SairClick'#0#0#0#9'TMenuItem'#16'MenuItemCadastro'#7'Caption'#6#9'&Cadastro'
+  +#0#9'TMenuItem'#23'MenuItemCadastroAnimais'#7'Caption'#6#27'&Animais / Carac'
+  +'ter'#195#173'sticas'#7'OnClick'#7#28'MenuItemCadastroAnimaisClick'#0#0#0#0#0
+]);
